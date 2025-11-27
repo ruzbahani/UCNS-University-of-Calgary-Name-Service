@@ -120,11 +120,11 @@ The UCNS system is live on Polygon Mainnet with the following verified smart con
 
 ## Documentation
 
-- **[Report 1A: System Specification](docs/reports/Report-1A-System-Specification.pdf)** ✅
-- **[Report 1B: GAIA Design](docs/reports/Report-1B-GAIA-Design.pdf)** ✅
-- **[Report 2: Detailed Development Document](docs/reports/Report-2.pdf)** ✅
+- **[Report 1A: System Specification](docs/Report-1A-System-Specification.pdf)** ✅
+- **[Report 1B: GAIA Design](docs/Report-1B-GAIA-Design.pdf)** ✅
+- **[Report 2: Detailed Development Document](docs/Report-2.pdf)** ✅
 - **[Project code: Smart Contracts](contracts/) and [Project code: Web Interface](webinterface/)** ✅
-- 
+  
 ## Technical Implementation
 
 ### Smart Contract Architecture
