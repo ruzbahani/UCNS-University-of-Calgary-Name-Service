@@ -21,7 +21,7 @@ A decentralized, agent-based blockchain domain registration system built on Poly
 ### UCNS Web Interface
 
 ![UCNS Home UI](docs/screenshots/ucns-home.png)
-![Domain Registration Flow](docs/screenshots/ucns-register-success.png)
+![ucns-price](docs/screenshots/ucns-price.png)
 
 ### On-Chain Verification (PolygonScan)
 
