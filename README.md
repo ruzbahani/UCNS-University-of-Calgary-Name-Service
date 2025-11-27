@@ -1,4 +1,4 @@
-# UCNS - Universal Chain Name Service
+# UCNS - University of Calgary  Name Service
 
 A decentralized, agent-based blockchain domain registration system built on Polygon, enabling seamless Web3 identity management through intelligent autonomous agents and smart contract orchestration.
 
@@ -39,7 +39,7 @@ UCNS represents a next-generation blockchain naming service that leverages agent
 
 ## Agent-Based Architecture
 
-The UCNS ecosystem consists of three primary intelligent agents, each with distinct responsibilities and autonomous decision-making capabilities:
+The UCNS multi-agent architecture follows GAIA-style analysis and design, where each smart contract is modeled as an autonomous agent with explicit roles, responsibilities, and interaction protocols. The UCNS ecosystem consists of three primary intelligent agents, each with distinct responsibilities and autonomous decision-making capabilities:
 
 ### Registry Agent (UCNSRegistry.sol)
 
@@ -63,8 +63,8 @@ The Pricing Agent demonstrates autonomous behavior through its ability to adjust
 
 ```
      ┌─────────────────────────────────────────────────────────┐
-     │                    User Interface (Web)                 │
-     │              [MetaMask Integration • Web3.js]           │
+     │                  User Interface (Web)                   │
+     │            [MetaMask Integration • Ethers.js]           │
      └────────────────----────┬────────────────────────────────┘
                               │
                               │ Transaction Signing
@@ -123,8 +123,8 @@ The UCNS system is live on Polygon Mainnet with the following verified smart con
 - **[Report 1A: System Specification](docs/reports/Report-1A-System-Specification.pdf)** ✅
 - **[Report 1B: GAIA Design](docs/reports/Report-1B-GAIA-Design.pdf)** ✅
 - **[Report 2: Detailed Development Document](docs/reports/Report-2.pdf)** ✅
-- **[Project code:Snart Contracts](contracts/) and [Project code:Web2 interface](webinterface/)** ✅
-
+- **[Project code: Smart Contracts](contracts/) and [Project code: Web Interface](webinterface/)** ✅
+- 
 ## Technical Implementation
 
 ### Smart Contract Architecture
@@ -139,7 +139,7 @@ The system deploys three interconnected smart contracts on the Polygon network, 
 
 ### Frontend Integration
 
-The web interface (index.php) provides a user-friendly gateway to interact with the autonomous agents. Built with modern web technologies including Bootstrap 5 and Web3.js, the interface translates user intentions into agent-compatible transactions. The frontend handles MetaMask wallet integration, transaction signing, and real-time status updates from the blockchain.
+The web interface (index.php) provides a user-friendly gateway to interact with the autonomous agents. Built with modern web technologies including HTML5, Bootstrap 5, and Ethers.js, the interface translates user intentions into agent-compatible transactions. The frontend handles MetaMask wallet integration, transaction signing, and real-time status updates from the blockchain.
 
 Key features include domain search and registration, ownership verification, record management, and WHOIS-style lookups. The interface communicates with all three agents through Web3 provider connections, submitting transactions and reading state from the Polygon network.
 
@@ -206,7 +206,7 @@ Machine learning integration could enhance the Pricing Agent with predictive ana
 
 ```bash
 # Clone repository
-git clone https://github.com/ruzbahani/ucns.git
+git clone https://github.com/ruzbahani/UCNS-University-of-Calgary-Name-Service.git
 cd ucns
 
 # Configure Web3 provider
@@ -262,14 +262,13 @@ php -S localhost:8080
 | Transaction gas cost | ~0.01 MATIC | ✅ Optimized |
 | Contract verification | 100% | ✅ Complete |
 
-## Development Setup
 
 ## Development Setup
 
 Clone the repository and install dependencies for local development:
 
 ```bash
-git clone https://github.com/ruzbahani/ucns.git
+git clone https://github.com/ruzbahani/UCNS-University-of-Calgary-Name-Service.git
 cd ucns
 
 # Install Hardhat for smart contract development
@@ -302,7 +301,7 @@ Test scenarios should include domain registration with various lengths and durat
 - [x] Phase 2: Agent Implementation (Registry, Resolver, Pricing)
 - [x] Phase 3: Polygon Mainnet Deployment
 - [x] Phase 4: Contract Verification on PolygonScan
-- [x] Phase 5: Web Interface Development (PHP + Web3.js)
+- [x] Phase 5: Web Interface Development (PHP + Ethers.js)
 - [x] Phase 6: MetaMask Integration & Testing
 - [x] Phase 7: Production Launch
 
@@ -319,8 +318,8 @@ This project is developed for academic purposes at the University of Calgary. Pl
 ## Technical Stack
 
 **Blockchain Layer:** Polygon PoS Chain, Solidity 0.8.x, OpenZeppelin Contracts  
-**Frontend Layer:** PHP 8.x, Bootstrap 5, Web3.js, MetaMask Integration  
-**Development Tools:** Hardhat/Truffle, Ethers.js, Polygon RPC Providers
+**Frontend Layer:** HTML5/PHP, Bootstrap 5, Ethers.js, MetaMask Integration  
+**Development Tools:** Hardhat, Ethers.js, Polygon RPC Providers
 
 ## Contact
 
