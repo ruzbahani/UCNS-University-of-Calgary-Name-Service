@@ -62,14 +62,14 @@ The Pricing Agent demonstrates autonomous behavior through its ability to adjust
 ## System Architecture
 
 ```
-     ┌─────────────────────────────────────────────────────────┐
-     │                  User Interface (Web)                   │
-     │            [MetaMask Integration • Ethers.js]           │
-     └────────────────----────┬────────────────────────────────┘
-                              │
-                              │ Transaction Signing
-                              │ State Queries
-                              ▼
+    ┌─────────────────────────────────────────────────────────┐
+    │                  User Interface (Web)                   │
+    │            [MetaMask Integration • Ethers.js]           │
+    └───────────────----────┬───-─────────────────────────────┘
+                            │
+                            │ Transaction Signing
+                            │ State Queries
+                            ▼
 ┌─────────────────────────────────────────────────---───────---------─┐
 │                      Polygon Blockchain Network                     │
 │                                                                     │
@@ -323,10 +323,11 @@ This project is developed for academic purposes at the University of Calgary. Pl
 
 ## Contact
 
-- **Ali Mohammadi Ruzbahani:** ali.mohammadiruzbaha@ucalgary.ca
+- **Ali Mohammadi Ruzbahani:** ali@ruzbahani.com
+- **Web:** [Ruzbahani.com](https://ruzbahani.com)
 - **GitHub:** [@ruzbahani](https://github.com/ruzbahani)
 - **Project Repository:** https://github.com/ruzbahani/UCNS-University-of-Calgary-Name-Service
-- **Live Demo:** https://ruzbahani.com/myprojects/ucns/UCNS-University-of-Calgary-Name-Service
+- **Live Demo:** https://ruzbahani.com/myprojects/ucns
 
 ## Acknowledgments
 
