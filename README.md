@@ -16,6 +16,17 @@ A decentralized, agent-based blockchain domain registration system built on Poly
 
 🌐 **Web Interface:** https://ruzbahani.com/myprojects/ucns/
 
+## Screenshots
+
+### UCNS Web Interface
+
+![UCNS Home UI](docs/screenshots/ucns-home.png)
+![Domain Registration Flow](docs/screenshots/ucns-register-success.png)
+
+### On-Chain Verification (PolygonScan)
+
+![Registry Contract on PolygonScan](docs/screenshots/ucns-registry-polygonscan.png)
+
 ## Overview
 
 UCNS represents a next-generation blockchain naming service that leverages agent-based architecture to provide autonomous, intelligent domain management on the Polygon network. The system employs three specialized smart contract agents that communicate and coordinate to deliver a comprehensive naming service comparable to traditional DNS but fully decentralized and blockchain-native.
