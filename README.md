@@ -62,14 +62,14 @@ The Pricing Agent demonstrates autonomous behavior through its ability to adjust
 ## System Architecture
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                    User Interface (Web)                 │
-│              [MetaMask Integration • Web3.js]           │
-└────────────────────┬────────────────────────────────────┘
-                     │
-                     │ Transaction Signing
-                     │ State Queries
-                     ▼
+     ┌─────────────────────────────────────────────────────────┐
+     │                    User Interface (Web)                 │
+     │              [MetaMask Integration • Web3.js]           │
+     └────────────────----────┬────────────────────────────────┘
+                              │
+                              │ Transaction Signing
+                              │ State Queries
+                              ▼
 ┌─────────────────────────────────────────────────---───────---------─┐
 │                      Polygon Blockchain Network                     │
 │                                                                     │
