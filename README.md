@@ -12,6 +12,10 @@ A decentralized, agent-based blockchain domain registration system built on Poly
 **University of Calgary** | Fall 2025
 
 
+## 🎥 Project Presentation Video
+[![Watch the video](https://img.youtube.com/vi/iVAbREl_PJM/0.jpg)](https://youtu.be/iVAbREl_PJM)
+
+
 ## Live Demo
 
 🌐 **Web Interface:** https://ruzbahani.com/myprojects/ucns/
